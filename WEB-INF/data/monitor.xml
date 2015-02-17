@@ -1,0 +1,4 @@
+<restart time="1424198768670"/>
+<measure time="1424198828699" memFree="648474216" memTotal="945291264" memMax="1908932608" data="35" dbdata="0" ugc="0" content="1" doc="0" mbr="1" request="0" logged="0" guest="0" robot="0" threads="52" activeThreads="52" daemonThreads="45" interruptedThreads="0"/>
+<measure time="1424198888716" memFree="857444536" memTotal="1060110336" memMax="1908932608" data="35" dbdata="0" ugc="0" content="1" doc="0" mbr="1" request="13" logged="1" guest="0" robot="0" threads="64" activeThreads="64" daemonThreads="61" interruptedThreads="0"/>
+<measure time="1424198948720" memFree="848204144" memTotal="1060110336" memMax="1908932608" data="35" dbdata="0" ugc="0" content="1" doc="0" mbr="1" request="0" logged="1" guest="0" robot="0" threads="65" activeThreads="65" daemonThreads="62" interruptedThreads="0"/>
