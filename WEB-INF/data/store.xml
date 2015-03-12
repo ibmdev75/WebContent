@@ -110,3 +110,4 @@
 <generated.PortalJspCollection stamp="c_5002" id="c_5001" op="update" mdate="1426189554083" pdate="1426189500000" templates="@|box.default|full.default|edit.default|query.default" title="SmabtpMiniSitePortail"  />
 <generated.PortalJspCollection stamp="c_5003" id="c_5001" op="update" mdate="1426189565829" titleML="%|java.lang.String/en=java.lang.String/SmabtpMiniSitePortail"  />
 <generated.PortalJspCollection stamp="c_5004" id="j_206" op="update" categories="" mdate="1426189739948" pdate="1410970980000" templates="@|box.default|full.default|edit.default|query.default"  />
+<generated.PortalJspCollection stamp="c_5005" id="c_5001" op="update" jsp="plugins/MiniSitePortailPlugin/jsp/smabtpMiniSitePortail.jsp" mdate="1426191051680" templates="@|box.default|edit.default|query.default|full.default"  />
