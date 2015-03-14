@@ -3,5 +3,6 @@
   <template name="default" file="doPortletRowFullDisplay.jsp" usage="box" />
   <template name="tab" file="doPortletRowTabDisplay.jsp" usage="box" />
   <template name="responsive" file="doPortletRowResponsiveDisplay.jsp" usage="box" />
+  <template name="headerImage" file="../../plugins/MiniSitePortailPlugin/types/PortletRow/doPortletRowImage.jsp" usage='box'/>
 </templates>
 
