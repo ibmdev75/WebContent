@@ -38,10 +38,10 @@ else {
             </div>
             <div class="dossierThematiqueDescriptionResume">
             <%= obj.getDescription(userLang) %>
-            <jalios:edit pub='<%= obj %>' fields='description'/>
             </div>
         </div>
     </div>
+    <a href="http://community.jalios.com/jcms9-ux" class="btn btn-default">En savoir plus...</a>
 </div>
      
      

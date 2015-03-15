@@ -9,8 +9,8 @@ jcmsContext.addCSSHeader("plugins/MiniSitePortailPlugin/css/Portail/Portal.css")
 
 // Initialisation des variables d'affichage
 
-String MDNavigationCategorie = "7";
-String MDNavigationReseau = "5";
+String MDNavigationCategorie = "8";
+String MDNavigationReseau = "4";
 
 String portletNavigationCategorieDisplay ="";
 String portletNavigationReseauDisplay ="";

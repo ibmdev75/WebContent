@@ -11,7 +11,7 @@ ServletUtil.backupAttribute(pageContext, "RowToolbar");
 jcmsContext.addCSSHeader("plugins/MiniSitePortailPlugin/css/Portail/Portal.css");
 
 // Initialisation des variables d'affichage
-String MDLogo = "2";
+String MDLogo = "3";
 String MDBandeau = "4";
 String portletLogoDisplay ="";
 String portletBandeauDisplay ="";

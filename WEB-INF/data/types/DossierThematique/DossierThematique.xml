@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<type name="DossierThematique" superclass="com.jalios.jcms.Content" debatable="false" unitFieldEdition="true" audienced="false" categoryTab="true" readRightTab="true" updateRightTab="true" templateTab="true" workflowTab="true" advancedTab="true" titleML="true">
+  <label xml:lang="fr">Dossier thématique</label>
+  <title ml="true">
+    <label xml:lang="fr">Titre</label>
+    <label xml:lang="en">Title</label>
+  </title>
+  <fields>
+    <field name="titreAffiche" editor="textarea" required="true" compactDisplay="false" type="String" searchable="true" rows="5" cols="80" ml="true" wiki="true" wikiwyg="false" html="false" checkHtml="true">
+      <label xml:lang="fr">Titre affiché</label>
+    </field>
+    <field name="description" editor="wysiwyg" required="true" type="String" searchable="true" wiki="true" rows="5" cols="80" compactDisplay="false" ml="true" descriptionType="text" html="false" checkHtml="true" wikiwyg="true" abstract="true" truncate="400">
+      <label xml:lang="fr">Description</label>
+      <label xml:lang="en">Description</label>
+      <description xml:lang="fr">Descriptif du dossier thématique</description>
+    </field>
+    <field name="image" editor="image" required="false" compactDisplay="false" type="String" searchable="true" size="80" maxlength="500" ml="true" imageMap="false">
+      <label xml:lang="fr">Image</label>
+    </field>
+    <field name="contenu" editor="wysiwyg" required="true" compactDisplay="false" type="String" searchable="true" rows="30" cols="100" ml="true" toolbars="basic,format,style,font" checkHtml="true" inline="true" descriptionType="text" html="false">
+      <label xml:lang="fr">Contenu</label>
+    </field>
+    <field name="lienArticle" editor="link" required="false" compactDisplay="false" type="generated.Article[]" ml="false" descriptionType="text" searchable="false" html="false" checkHtml="true">
+      <label xml:lang="fr">Lien article</label>
+      <description xml:lang="fr">Lien sur l'article associé au dossier</description>
+    </field>
+  </fields>
+  <tabs />
+</type>
+
