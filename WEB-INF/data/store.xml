@@ -221,3 +221,5 @@
 <generated.PortletColumn stamp="c_5113" id="c_5042" op="update" children="" childrenBindings="" mdate="1426383392566"  />
 <generated.PortletColumn stamp="c_5114" id="c_5042" op="update" children="@|c_5111" childrenBindings="@|" mdate="1426383399804"  />
 <generated.PortletColumn stamp="c_5115" id="c_5042" op="update" children="" childrenBindings="" mdate="1426384415358"  />
+<generated.PortletColumn stamp="c_5116" id="c_5042" op="update" children="@|c_5111" childrenBindings="@|" mdate="1426461809232"  />
+<generated.PortletQueryForeachDetail stamp="c_5117" id="c_5111" op="update" cssClasses="plugins/MiniSitePortailPlugin/css/DossierThematique/LsteResumeDossierThematiqueVignette.css" mdate="1426462028762" titleML="%|java.lang.String/en=java.lang.String/Les derniers dossiers thématiques"  />

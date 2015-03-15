@@ -41,13 +41,8 @@ else {
             </div>
         </div>
     </div>
-    <a href="http://community.jalios.com/jcms9-ux" class="btn btn-default">En savoir plus...</a>
+    <a href="http://community.jalios.com/jcms9-ux" class="btn btn-default float-position">En savoir plus...</a>
 </div>
-     
-     
-     
-     
-     
      
      </div>
     </div>
