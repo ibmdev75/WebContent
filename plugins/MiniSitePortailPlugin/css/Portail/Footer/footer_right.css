@@ -1,0 +1,9 @@
+#footerRight> div.wysiwyg.classic {
+	background-color: #7b7b7b !important;
+	min-height: 60px !important;
+	color: #FFFFFF !important;
+}
+
+#footerRight> div.wysiwyg.classic > p {
+	float: left !important;	
+}

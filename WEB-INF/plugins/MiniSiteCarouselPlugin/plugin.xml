@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plugin PUBLIC "-//JALIOS//DTD JCMS-PLUGIN 1.6//EN" "http://support.jalios.com/dtd/jcms-plugin-1.6.dtd">
+
+
+<plugin name="MiniSiteCarouselPlugin" version="0.1" author="Karim ZOUBA" license="sma" initialize="true" jcms="" order="0" url="" jsync="false" appserver="">
+  
+  <label xml:lang="fr">MiniSiteCarouselPlugin</label>
+  <description xml:lang="fr">Plugin de présentation d'un contenu sous forme de Carousel</description>
+  
+  <types>
+	
+	 	<templates type="PortletQueryForeachDetail">
+	    	<template name="ResumeDossierThematiqueCarousel" file="ResumeDossierThematiqueCarousel.jsp" usage='box'>
+	      		<label xml:lang="en">Présentation Résumé Dossier Thématique sous forme de Carousel (Personnalisation)</label>
+	      		<label xml:lang="fr">Présentation Résumé Dossier Thématique sous forme de Carousel (Personnalisation)</label>
+	    	</template>
+	    </templates>
+</types>
+  
+  <private-files>
+    <directory path="properties" />
+  </private-files>
+  <public-files>
+    <directory path="js" />
+    <directory path="css" />
+    <directory path="docs" />
+    <directory path="jsp" />
+    <directory path="types" />
+  </public-files>
+</plugin>
+

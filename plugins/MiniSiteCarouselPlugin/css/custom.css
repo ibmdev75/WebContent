@@ -1,0 +1,59 @@
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    background: #000000 !important;
+    text-indent: -9999px !important;
+    display: block !important;
+    width: 10px !important;
+    height: 10px !important;
+    margin: 0 5px !important;
+    outline: 0 !important;
+    -moz-border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    border-radius: 5px !important;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+    left: 0px;
+    top: 40%;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-next{
+    right: 0px;
+    top: 40%;
+}
+.owl-theme .owl-controls .owl-buttons div {
+    position: absolute;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+    color: #FFF !important;
+    display: inline-block !important;
+    zoom: 1 !important;
+    margin: 5px !important;
+    padding: 7px 10px !important;
+    font-size: 12px !important;
+    -webkit-border-radius: 30px !important;
+    -moz-border-radius: 30px !important;
+    border-radius: 30px !important;
+    background: #OOOOOO !important;
+    filter: Alpha(Opacity=50) !important;
+    opacity: 0.5 !important;
+}
+
+.bx-caption {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    background: #666\9;
+    background: rgba(80, 80, 80, 0.75);
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+}
+

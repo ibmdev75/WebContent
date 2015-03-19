@@ -1,0 +1,39 @@
+.TitleArticleDetail {
+color: #a2a2a2;
+font-family: 'Lobster Two';
+font-size: 32px;
+}
+
+.ArticleContainerDetail {
+
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ArticleImageDetail {
+
+    float: left;
+    width: 100px;
+    height: auto;
+    top: 0;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+
+.ArticleDescriptionDetail {
+
+    top: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 50%;
+}
+
+.fulldisplay-footer {
+	display: none;
+}
+
+.selection-side {
+	display: none;
+}

@@ -4,26 +4,23 @@
 <%
   PortalJspCollection box = (PortalJspCollection) portlet;
   ServletUtil.backupAttribute(pageContext, "ShowChildPortalElement");
+  jcmsContext.addCSSHeader("plugins/MiniSitePortailPlugin/css/Portail/Portal.css");
 %>
 <%@ include file='/types/AbstractCollection/doIncludePortletCollection.jspf'%>
 <%
   ServletUtil.restoreAttribute(pageContext , "ShowChildPortalElement");
   
-
-	// Import de la librairie font-awesome
-    // <link rel="stylesheet" href="css/font-awesome.min.css">
-  
   // Gestion de la structure colonne gauche sur toute la hauteur
-  String portletColGaucheDisplay = getPortlet(bufferMap,"colgauche").isEmpty()?"portletEmpty":"";
+  String portletColGaucheDisplay = getPortlet(bufferMap,"colgauche").isEmpty()?"nodisplay":"";
   String portletColDroiteDisplay = getPortlet(bufferMap,"colgauche").isEmpty()?"12":"9";
   
   // Gestion de la structure colonne à gauche
   // Cas où la colonne de droite n'est pas renseignée
-  String portletColDteDisplay = getPortlet(bufferMap,"coldte").isEmpty()?"portletEmpty":"";
+  String portletColDteDisplay = getPortlet(bufferMap,"coldte").isEmpty()?"nodisplay":"";
   String MDSelection = (getPortlet(bufferMap,"coldte").isEmpty() && !getPortlet(bufferMap,"colgch").isEmpty())?"8":"4";
   
   // Gestion de la structure colonne à droite
-  String portletColGchDisplay = getPortlet(bufferMap,"colgch").isEmpty()?"portletEmpty":"";
+  String portletColGchDisplay = getPortlet(bufferMap,"colgch").isEmpty()?"nodisplay":"";
   MDSelection = (getPortlet(bufferMap,"colgch").isEmpty() && !getPortlet(bufferMap,"coldte").isEmpty())?"8":"4";
   
   // Gestion de la structure sans colonne
@@ -34,7 +31,7 @@
 <div class="container-fluid">
 	<div class="row">
 	    
-	    <div class="col-md-3 portletColonneGauche contentPortlet"<%=portletColGaucheDisplay %>>
+	    <div class="col-md-3 portletColonneGauche contentPortlet <%=portletColGaucheDisplay %>">
 	    	<%= getPortlet(bufferMap,"colgauche") %>
 	    </div>
         
@@ -45,13 +42,13 @@
         		</div>
         	</div>
         	<div class="row">
-            	<div class="col-md-4 contentPortlet"<%=portletColGchDisplay %>>
+            	<div class="col-md-4 contentPortlet <%=portletColGchDisplay %>">
             		<%= getPortlet(bufferMap,"colgch") %>
             	</div>
             	<div class="col-md-<%=MDSelection%> contentPortlet">
             		<%= getPortlet(bufferMap,"selection") %>
             	</div>
-            	<div class="col-md-4 contentPortlet"<%=portletColDteDisplay %>>
+            	<div class="col-md-4 contentPortlet <%=portletColDteDisplay %>">
             		<%= getPortlet(bufferMap,"coldte") %>
             	</div>
           </div>

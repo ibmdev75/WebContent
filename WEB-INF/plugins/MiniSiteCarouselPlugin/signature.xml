@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<signature name="MiniSiteCarouselPlugin" urid="c" type="plugin" date="1426501328119">
+  <sign file="WEB-INF/plugins/MiniSiteCarouselPlugin/plugin.xml" signature="O+t7FWNkQmMAdRMKALKsSQ==" />
+  <sign file="WEB-INF/plugins/MiniSiteCarouselPlugin/properties/languages/en.prop" signature="1B2M2Y8AsgTpgAmY7PhCfg==" />
+  <sign file="WEB-INF/plugins/MiniSiteCarouselPlugin/properties/languages/fr.prop" signature="1B2M2Y8AsgTpgAmY7PhCfg==" />
+  <sign file="WEB-INF/plugins/MiniSiteCarouselPlugin/properties/plugin.prop" signature="lT/m+I/VCgML0RgD3gTKPg==" />
+  <sign file="plugins/MiniSiteCarouselPlugin/css/plugin.less" signature="F/0qW60ZXRqaDXfp4DVvPw==" />
+  <sign file="plugins/MiniSiteCarouselPlugin/js/plugin.js" signature="PWtlEBhSrhTYGa4lqwm+1g==" />
+  <sign file="plugins/MiniSiteCarouselPlugin/jsp/plugin.jsp" signature="HhHXCuU58jmkb/WkRU9Duw==" />
+</signature>
+
