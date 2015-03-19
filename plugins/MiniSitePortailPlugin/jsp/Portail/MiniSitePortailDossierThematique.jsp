@@ -12,7 +12,7 @@
   
   // Gestion de la structure colonne gauche sur toute la hauteur
   String portletColGaucheDisplay = getPortlet(bufferMap,"colgauche").isEmpty()?"nodisplay":"";
-  String portletColDroiteDisplay = getPortlet(bufferMap,"colgauche").isEmpty()?"12":"9";
+  String portletColDroiteDisplay = getPortlet(bufferMap,"colgauche").isEmpty()?"12":"8";
   
   // Gestion de la structure colonne à gauche
   // Cas où la colonne de droite n'est pas renseignée
@@ -31,7 +31,7 @@
 <div class="container-fluid">
 	<div class="row">
 	    
-	    <div class="col-md-3 portletColonneGauche contentPortlet <%=portletColGaucheDisplay %>">
+	    <div class="col-md-4 portletColonneGauche contentPortlet <%=portletColGaucheDisplay %>">
 	    	<%= getPortlet(bufferMap,"colgauche") %>
 	    </div>
         

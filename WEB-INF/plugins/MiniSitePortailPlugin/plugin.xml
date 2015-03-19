@@ -36,8 +36,6 @@
 	    	</template>
 	   </templates>
 	   
-	   <!-- Dossier Thématique -->
-	   
 	   <templates type="PortletQueryForeach">
 	   		<template name="DossierThematiqueFullDisplay" file="DossierThematiqueFullDisplay.jsp"  usage='full'>
 	    		<label xml:lang="en">Mini Site Gabarit Dossier Thématique Résumé Full Display</label>
@@ -47,6 +45,26 @@
 	    		<label xml:lang="en">Mini Site Gabarit Dossier Thématique Résumé Full Display</label>
 	      		<label xml:lang="fr">Mini Site Gabarit Dossier Thématique Résumé Full Display</label>
 	    	</template>
+	    	
+	    	<template name="DossierThematiqueResumeReseauxSociaux" file="ResumeDossierThematiqueReseauxSociaux.jsp"  usage='full'>
+	    		<label xml:lang="en">Mini Site Gabarit Dossier Thématique Résumé + partage réseaux sociaux</label>
+	      		<label xml:lang="fr">Mini Site Gabarit Dossier Thématique Résumé + partage réseaux sociaux</label>
+	    	</template>
+	    	<template name="DossierThematiqueResumeReseauxSociaux" file="ResumeDossierThematiqueReseauxSociaux.jsp"  usage='box'>
+	    		<label xml:lang="en">Mini Site Gabarit Dossier Thématique Résumé + partage réseaux sociaux</label>
+	      		<label xml:lang="fr">Mini Site Gabarit Dossier Thématique Résumé + partage réseaux sociaux</label>
+	    	</template>
+	    	
+	    	<template name="DossierThematiqueListeArticles" file="ListeArticles.jsp"  usage='full'>
+	    		<label xml:lang="en">Mini Site Gabarit Dossier Thématique : Liste des articles </label>
+	      		<label xml:lang="fr">Mini Site Gabarit Dossier Thématique : Liste des articles </label>
+	    	</template>
+	    	<template name="DossierThematiqueListeArticles" file="ListeArticles.jsp"  usage='box'>
+	    		<label xml:lang="en">Mini Site Gabarit Dossier Thématique : Liste des articles </label>
+	      		<label xml:lang="fr">Mini Site Gabarit Dossier Thématique : Liste des articles </label>
+	    	</template>
+	    	
+	    	
 	   </templates>
 	   
 	   <templates type="DossierThematique">

@@ -10,7 +10,6 @@ jcmsContext.addCSSHeader("plugins/MiniSitePortailPlugin/css/DossierThematique/Re
 
 %>
 
-
 <%
 DossierThematique obj = (DossierThematique)itPub;
 String urlPrint = "http://"+request.getServerName()+":"
@@ -51,38 +50,5 @@ String urlPrint = "http://"+request.getServerName()+":"
             		</div>
             	</div>
  </div>
- 
- <div class="row">
-        		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-            	</div>
-            	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            	
-            	<%for(int i=0;i<obj.getLienArticle().length;i++) { 
-            		Article current_article = (Article)obj.getLienArticle()[i];
-            	%>
-            	<div class="panel_dossier panel-default_dossier">
-					<div class="panel-heading_dossier">
-   						<div class="panel-title"><span class="skinTitle"><%=current_article.getTitle(userLang) %></span></div>
-   					</div>
-   					<div class="row">
-        			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 dossierThematiqueContainerResumeDetail">
-            			<div class="dossierThematiqueImageResume">
-            				<jalios:thumbnail  path="<%= current_article.getDataImage(userLang) %>" height="100" width="100"/>
-            			</div>
-            			<div class="dossierThematiqueDescriptionArticleDetail">
-            				<%= current_article.getSummary(userLang) %>
-            			</div>
-            		</div>
-            		<a href="<%=current_article.getDisplayUrl(Locale.FRANCE) %>" class="btn btn-default float-position_article">En savoir plus...</a>
- 				</div>
- 				
-				</div>
-				
-				
-				
-				<%} %>
-            	</div>
- </div>
-
 <%@ include file="/types/PortletQueryForeach/doForeachFooter.jspf" %>
 <%@ include file="/types/PortletQueryForeach/doPager.jspf" %>
